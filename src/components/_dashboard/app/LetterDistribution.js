@@ -23,7 +23,7 @@ export default function AppConversionRates() {
       }
     },
     plotOptions: {
-      bar: { horizontal: true, barHeight: '28%', borderRadius: 2 }
+      bar: { horizontal: true, barHeight: '20%', borderRadius: 2 }
     },
     xaxis: {
       categories: [
@@ -43,7 +43,7 @@ export default function AppConversionRates() {
 
   return (
     <Card>
-      <CardHeader title="Conversion Rates" subheader="(+43%) than last year" />
+      <CardHeader title="Buchstaben Verteilung" subheader="in % am gesamt Text" />
       <Box sx={{ mx: 3 }} dir="ltr">
         <ReactApexChart type="bar" series={CHART_DATA} options={chartOptions} height={364} />
       </Box>
