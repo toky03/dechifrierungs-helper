@@ -39,7 +39,8 @@ export default function LetterDistribution({ text }) {
       y: {
         formatter: (seriesName) => fPercent(seriesName),
         title: {
-          formatter: (seriesName) => `#${seriesName}`
+          formatter: (seriesName, { dataPointIndex }) =>
+            `Buchstabe: ${seriesName.split(',')[dataPointIndex]}, Anteil:`
         }
       }
     },
@@ -55,7 +56,12 @@ export default function LetterDistribution({ text }) {
     <Card>
       <CardHeader title="Buchstaben Verteilung" subheader="in % am gesamt Text" />
       <Box sx={{ mx: 3 }} dir="ltr">
-        <ReactApexChart type="bar" series={[{ data: keys }]} options={chartOptions} height={364} />
+        <ReactApexChart
+          type="bar"
+          series={[{ data: keys, name: categories }]}
+          options={chartOptions}
+          height={364}
+        />
       </Box>
     </Card>
   );

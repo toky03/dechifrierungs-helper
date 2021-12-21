@@ -9,8 +9,18 @@ import { KeyPairs, CodedText, LetterDistribution, EncodedText } from '../compone
 
 export default function DashboardApp() {
   const encodedText =
-    'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.\n' +
-    'Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,';
+    'Poffh rgvobbes aosr pexrfdkpe Axougfoudhs rgb exlhfaxedkpes Esuvkpfgevvefs tdevev Khtev. Tolgex expofueu dpx vepx wdef Onnfogv 👏 gst tdeve zfedse Aevkpdkpue ofv Mefhpsgsa: „Tex Mxecdu dvu edse Zouovuxhnpe!“, uhmue tex Yedpsokpuvboss.\n' +
+    '\n' +
+    '„Yoxgb?“, lxoaue tov xhusovdae Xesudex Xgthfl.\n' +
+    '„Mdvpex pouue dkp thkp dbbex vkphuudvkpes Vdsafe-Bofu-Ypdvzi ds bedseb Aomesvokz. Jeuru dvu tex Dbnhxu wdef rg zhbnfdrdexu gst uegex aeyhxtes. Topex bgvv dkp jeuru dxdvkpes vkpeszes. Dxfost dvu jo yeduexpds ds tex EG. Omex tex dvu sdkpu vh mezossu.“\n' +
+    ' „Tex ydxt jo ogkp ostexv aevkpxdemes, bdu e“, voaue Xgthfl. Sokptxgekzfdkp lgeaue ex pdsrg: „Dxdvkpex Ypdvzei bdu e dvu omex sdkpu vkpfekpuex ofv vkphuudvkpex Ypdvzi hpse e. Vhffues tde Fegue sdkpu lxhp veds, tovv vde gemexpognu yov zxdeaes?“\n' +
+    '\n' +
+    'Tex Yedpsokpuvboss fokpue. „Jo, to povu tg xekpu. Toss vkpesze dkp emes Ypdvzei bdu e. Offextdsav phlle dkp, tovv tde Vkphuues moft gsompoesada yextes gst ofv vhgwexoesex Vuoou ds tde EG rgxgekzzepxes. Toss zfonnu ev ydetex mevvex bdu teb vkphuudvkpes Ypdvzi.“\n' +
+    'Tov Xesudex vop vzenudvkp txeds. „Dkp afogme zogb, tovv Vkphuufost ds omvepmoxex Redu gsompoesada ydxt. Fhsths yoexe toaeaes, omex ogkp tde EG, yedf toss wdefe ostexe Xeadhses tovvefme lhxtexs ygextes: Lfostexs, Zouofhsdes, Moiexs –“ „Okp tg Vkpxekz“, esulgpx ev teb Yedpsokpuvboss, „toss mezoebe dkp Vuxevv med tex Mevkpollgsa whs moixdvkpeb Mdex. Ds lxgepexes Jopxrepsues yox ev edslokpex, ofv dkp sgx Vndefvokpes lgex Zdstex wexuedfes bgvvue. Jeuru yhffes ogkp tde Exyokpveses mevkpeszu yextes, gst ryox hlu bdu Ofzhphfdvkpeb.“\n' +
+    '„Gb ogl tes dxdvkpes Ypdvzei rgxgekzrgzhbbes“, voaue Xgthfl, „tex dvu ydxzfdkp aesog vh agu yde tex vkphuudvkpe Ypdvzi. Tes zossvu tg mexgpdau vkpeszes. Wdeffedkpu yhffes tde Fegue moft aox zedses ostexes bepx pomes.“ „So, yess tg bedsvu…“ Tex Yedpsokpuvboss yhffue tov Upebo aexote ompozes, ofv dpb eds axogvfdkpex Wextokpu zob. Ex wexvgkpue dps rg wextxoesaes, yov dpb jethkp sdkpu aefosa.\n' +
+    '„Xgthfl“, lxoaue ex vkpfdevvfdkp whffex mosaex Opsgsa, „yhpex yedvu tg vh wdef gemex ofzhphfdvkpe Aeuxoesze? Dkp tokpue dbbex, tedse xhue Sove ved osaemhxes… omex zeds ostexev Xesudex pou edse… ydxt beds Vkpfduues euyo esuaeaes offex dsuexaofozudvkpes Wexzepxvxeaefs whs edseb VOEGLEX aerhaes?!?“\n' +
+    '\n' +
+    'Qgeffe: puunv://yyy.zgxraevkpdkpues-vuhxdev.te/u_3354.ovnc';
   const [key, setKey] = useState(null);
 
   const changeKeyPair = (keyPair) => {
