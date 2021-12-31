@@ -2,7 +2,9 @@ FROM node:14 AS build
 
 RUN mkdir /app
 COPY package.json yarn.lock /app/
+COPY ./public/pkg /app/public/pkg
 WORKDIR /app
+
 RUN yarn install
 COPY  . /app/
 # this will build the browser and server files:
