@@ -4,6 +4,7 @@ import DashboardLayout from './layouts/dashboard';
 import LogoOnlyLayout from './layouts/LogoOnlyLayout';
 //
 import DashboardApp from './pages/DashboardApp';
+import Conway from './pages/Conway';
 import NotFound from './pages/Page404';
 
 // ----------------------------------------------------------------------
@@ -15,6 +16,7 @@ export default function Router() {
       element: <DashboardLayout />,
       children: [
         { element: <Navigate to="/app" replace /> },
+        { path: 'conway', element: <Conway /> },
         { path: 'app', element: <DashboardApp /> }
       ]
     },

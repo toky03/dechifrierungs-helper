@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 // material
 import { alpha, styled } from '@mui/material/styles';
-import { Box, Stack, AppBar, Toolbar, IconButton, Typography } from '@mui/material';
+import { Box, AppBar, Toolbar, Typography } from '@mui/material';
 // components
 
 // ----------------------------------------------------------------------
@@ -39,7 +39,7 @@ export default function DashboardNavbar({ onOpenSidebar }) {
     <RootStyle>
       <ToolbarStyle>
         <Typography variant="h1" sx={{ color: 'text.primary' }}>
-          Verschlüsselung
+          Silversterrätsel
         </Typography>
         <Box sx={{ flexGrow: 1 }} />
       </ToolbarStyle>
